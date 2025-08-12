@@ -62,6 +62,7 @@ export const ResponseTab = ({
 
     if (type === 'application/json') {
       let bodyContent;
+
       try {
         const jsonData = JSON.parse(data);
 
